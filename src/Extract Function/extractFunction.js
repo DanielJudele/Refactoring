@@ -31,7 +31,8 @@ class Person{
     }
 
     getAge(){
-        return 24;
+        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
+        return new Date(diffMiliseconds).getFullYear() - 1970;
     }
 
     printPerson(){
@@ -40,7 +41,7 @@ class Person{
         this.showDetails(age);
     }
 
-    showDetails(){
+    showDetails(age){
         console.log(`name: ${this.firname}`);
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);

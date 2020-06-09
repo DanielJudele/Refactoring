@@ -1,6 +1,6 @@
 # Change Function Declaration
 ## Why?
-You have a method which name doesn't explain what the method does.
+You have a function which name doesn't explain what the function does.
 ### Benefits:
 - improve code readability.
 ## What?

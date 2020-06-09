@@ -7,7 +7,8 @@ You have public field and you want to avoid other objects to update the value of
 Make the field private.
 ## How?
 Make the field private and create access function for it.
-
+## Sample
+**Before**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){
@@ -41,9 +42,7 @@ class Person{
     }
 }
 ```
-
-**========>>>**
-
+**==> After refactoring**
 ```js
 class Person{
     #firstName;

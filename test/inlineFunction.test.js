@@ -2,7 +2,7 @@ var assert = require("assert");
 var Person = require("../src/Inline Function/inlineFunction");
 var personObject = new Person("Dan","Popescu", new Date(2002, 12, 01));
 
-describe("Extract Function Tests", function () {
+describe("Inline Function Tests", function () {
     describe("Constructor Test", function () {
         it("Object is created", function () {
             assert(personObject);

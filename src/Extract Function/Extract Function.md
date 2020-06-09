@@ -11,7 +11,8 @@ Move the code which can be grouped to a new function/method and replace the old 
 - Create a new function
 - Copy the code to that function
 - Replace the old code with a call to that function
-
+## Sample
+**Before**
 ```js
                 class Person{
                     constructor(firstName, lastName, dateOfBirth){
@@ -35,8 +36,7 @@ Move the code which can be grouped to a new function/method and replace the old 
                     }
                 }
 ```
-**========>>>**
-
+**After refactoring**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){

@@ -1,12 +1,12 @@
 # Change Function Declaration
 ## Why?
-You have a method which name doesn't explain what the method does.
+You have a function which name doesn't explain what the function does.
 ### Benefits:
 - improve code readability.
 ## What?
-Replace the name of the method.
+Replace the name of the function.
 ## How?
-- Replace the name of the method everywhere is used.
+- Replace the name of the function everywhere is used.
 
 ```js
 class Person{

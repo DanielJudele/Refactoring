@@ -8,7 +8,8 @@ Replace the reference of the variable with the expression itself.
 ## How?
 - Replace the reference of the variable with the expression itself.
 - Delete the declaration of the variable
-
+## Sample
+**Before**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){
@@ -40,9 +41,7 @@ class Person{
     }
 }
 ```
-
-**========>>>**
-
+**After refactoring**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){

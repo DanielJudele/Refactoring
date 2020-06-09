@@ -5,7 +5,7 @@ var personObject = new Person("Dan","Popescu", new Date());
 describe("Extract Function Tests", function () {
     describe("Constructor Test", function () {
         it("Object is created", function () {
-            assert.ok(true);
+            assert(personObject);
         }),
         it("Has first Name", function () {
             assert.equal("Dan",personObject.firstName);

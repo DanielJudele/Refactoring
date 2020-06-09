@@ -10,7 +10,8 @@ Set the result of the expression to a immutable variable.
 - Declare an immutable variable
 - Set the result of the expression to the new variable
 - Replace the expression with the new variable
-
+## Sample
+**Before**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){
@@ -40,9 +41,7 @@ class Person{
     }
 }
 ```
-
-**========>>>**
-
+**After refactoring**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){

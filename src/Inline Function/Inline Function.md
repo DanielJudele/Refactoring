@@ -10,6 +10,7 @@ Replace the call to that function with the content of the function itself.
 ## How?
 - Replace the call to that function with the content of the function itself
 - Delete the function
+## Sample
 **Before**
 ```js
 class Person{

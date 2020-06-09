@@ -7,7 +7,8 @@ You have a function which name doesn't explain what the function does.
 Replace the name of the function.
 ## How?
 - Replace the name of the function everywhere is used.
-
+## Sample
+**Before**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){
@@ -41,9 +42,7 @@ class Person{
     }
 }
 ```
-
-**========>>>**
-
+**After refactoring**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){

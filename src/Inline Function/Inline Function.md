@@ -10,7 +10,7 @@ Replace the call to that function with the content of the function itself.
 ## How?
 - Replace the call to that function with the content of the function itself
 - Delete the function
-
+**Before**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){
@@ -46,9 +46,7 @@ class Person{
     }
 }
 ```
-
-**========>>>**
-
+**After refactoring**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){

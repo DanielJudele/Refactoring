@@ -7,7 +7,7 @@ You have an expression which become very complex and hard to read and understand
 ## What?
 Set the result of the expression to a immutable variable.
 ## How?
-- Declare a immutable variable
+- Declare an immutable variable
 - Set the result of the expression to the new variable
 - Replace the expression with the new variable
 

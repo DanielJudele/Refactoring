@@ -42,7 +42,7 @@ class Person{
     }
 }
 ```
-**==> After refactoring**
+**After refactoring**
 ```js
 class Person{
     #firstName;

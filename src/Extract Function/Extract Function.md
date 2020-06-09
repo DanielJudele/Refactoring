@@ -1,4 +1,4 @@
-# Extract Method function
+# Extract function
 ## Why?
 You have more lines in the code which can be grouped together.
 ### Benefits:

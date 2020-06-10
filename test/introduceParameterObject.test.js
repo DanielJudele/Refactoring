@@ -26,19 +26,18 @@ describe("Introduce Parameter Object", function () {
         })
     }),
     describe("Address Test", function () {
-        personObject.setAddress(addressObject);
-        var personAddress = personObject.Address;
+        personObject.Address = addressObject;
         it("Has street Name", function () {
-            assert.equal("Route",personAddress.StreetName);
+            assert.equal("Route",personObject.Address.StreetName);
         })
         it("Has street Number", function () {
-            assert.equal("66",personAddress.StreetNumber);
+            assert.equal("66",personObject.Address.StreetNumber);
         }),
         it("Has town", function () {
-            assert.equal("New York",personAddress.Town);
+            assert.equal("New York",personObject.Address.Town);
         }),
         it("Has country", function () {
-            assert.equal("United States",personAddress.Country);
+            assert.equal("United States",personObject.Address.Country);
         })
     })
 });

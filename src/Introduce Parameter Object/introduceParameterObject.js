@@ -183,7 +183,7 @@ class Person{
         this.showDetails(age);
     }
 
-    setAddress(address){
+    set Address(address){
         this.#address = address;
     }
 

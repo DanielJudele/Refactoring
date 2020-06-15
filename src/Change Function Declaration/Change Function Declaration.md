@@ -62,7 +62,7 @@ class Person{
 ```diff
 +    getFullName(){
 -    getFName(){
-```
+
         return this.firstName + ' ' + this.lastName;
     }
 
@@ -77,4 +77,5 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+```
 ```

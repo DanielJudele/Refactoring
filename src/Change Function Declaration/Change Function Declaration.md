@@ -43,7 +43,7 @@ class Person{
 }
 ```
 **After refactoring**
-```js
+
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -78,4 +78,4 @@ class Person{
     }
 }
 ```
-```
+

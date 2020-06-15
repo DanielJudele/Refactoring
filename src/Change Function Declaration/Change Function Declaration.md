@@ -43,7 +43,8 @@ class Person{
 }
 ```
 **After refactoring**
-
+```js
+```diff
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -59,10 +60,9 @@ class Person{
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
-```diff
+    
 +    getFullName(){
 -    getFName(){
-
         return this.firstName + ' ' + this.lastName;
     }
 
@@ -77,5 +77,6 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+```
 ```
 

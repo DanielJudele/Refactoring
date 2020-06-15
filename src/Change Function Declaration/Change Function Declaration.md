@@ -43,42 +43,40 @@ class Person{
 }
 ```
 **After refactoring**
-```js
 
-```diff
-class Person{
-    constructor(firstName, lastName, dateOfBirth){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.dateOfBirth = dateOfBirth;
-    }
+                ```diff
+                class Person{
+                    constructor(firstName, lastName, dateOfBirth){
+                        this.firstName = firstName;
+                        this.lastName = lastName;
+                        this.dateOfBirth = dateOfBirth;
+                    }
 
-    isAdult(){
-        return this.getAge() >= 18;
-    }
+                    isAdult(){
+                        return this.getAge() >= 18;
+                    }
 
-    getAge(){
-        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
-        return new Date(diffMiliseconds).getFullYear() - 1970;
-    }
-    
-+    getFullName(){
--    getFName(){
-        return this.firstName + ' ' + this.lastName;
-    }
+                    getAge(){
+                        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
+                        return new Date(diffMiliseconds).getFullYear() - 1970;
+                    }
 
-    printPerson(){
-        let age = this.getAge();
-        this.showDetails(age);
-    }
+                +    getFullName(){
+                -    getFName(){
+                        return this.firstName + ' ' + this.lastName;
+                    }
 
-    showDetails(age){
-        console.log(`name: ${this.firname}`);
-        console.log(`name: ${this.lastName}`);
-        console.log(`name: ${age}`);
-    }
-}
+                    printPerson(){
+                        let age = this.getAge();
+                        this.showDetails(age);
+                    }
+
+                    showDetails(age){
+                        console.log(`name: ${this.firname}`);
+                        console.log(`name: ${this.lastName}`);
+                        console.log(`name: ${age}`);
+                    }
+                }
 ```
 
-```
 

@@ -8,7 +8,7 @@ Replace the name of the function.
 ## How?
 - Replace the name of the function everywhere is used.
 ## Sample
-**Before**
+**Before refactoring**
 ```js
 class Person{
     constructor(firstName, lastName, dateOfBirth){

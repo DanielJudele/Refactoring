@@ -65,8 +65,8 @@ class Person{
 +    getFullName(){
 -    getFName(){
         return this.firstName + ' ' + this.lastName;
-    } ```
- 
+    }
+``` 
 ```js
     printPerson(){
         let age = this.getAge();

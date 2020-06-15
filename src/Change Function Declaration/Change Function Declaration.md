@@ -59,11 +59,14 @@ class Person{
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
-
-    getFullName(){
-        return this.firstName + ' ' + this.lastName;
-    }
-
+```diff
++    getFullName(){
++        return this.firstName + ' ' + this.lastName;
++    }
+-    getFName(){
+-        return this.firstName + ' ' + this.lastName;
+-    }
+```
     printPerson(){
         let age = this.getAge();
         this.showDetails(age);

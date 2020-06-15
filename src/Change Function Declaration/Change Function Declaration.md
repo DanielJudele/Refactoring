@@ -44,6 +44,7 @@ class Person{
 ```
 **After refactoring**
 ```js
+
 ```diff
 class Person{
     constructor(firstName, lastName, dateOfBirth){
@@ -78,5 +79,6 @@ class Person{
     }
 }
 ```
+
 ```
 

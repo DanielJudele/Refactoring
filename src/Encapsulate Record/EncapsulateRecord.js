@@ -5,34 +5,38 @@ person = {firstName: "Dan", lastName:"Popescu", dateOfBirth: "6th October 2012"}
 
 // Refactored code
 class Person{
+    #firstName;
+    #lastName;
+    #dateOfBirth;
+
     constructor(data){
-        this.firstName = data.firstName;
-        this.lastName = data.lastName;
-        this.dateOfBirth = data.dateOfBirth;
+        this.#firstName = data.firstName;
+        this.#lastName = data.lastName;
+        this.#dateOfBirth = data.dateOfBirth;
     }
 
     get firstName(){
-        return this.firstName;
+        return this.#firstName;
     }
     
     set firstName(value){
-        this.firstName = value;
+        this.#firstName = value;
     }
 
     get lastName(){
-        return this.lastName;
+        return this.#lastName;
     }
 
     set lastName(value){
-        this.lastName = value;
+        this.#lastName = value;
     }    
 
     get dateOfBirth(){
-        return this.dateOfBirth;
+        return this.#dateOfBirth;
     }
 
     set dateOfBirth(value){
-        this.dateOfBirth = value;
+        this.#dateOfBirth = value;
     }    
 }
 

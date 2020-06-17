@@ -115,4 +115,4 @@ class Person{
     }
 }
 ```
-[See code sample](../changeFunctionDeclaration.js)
+[See code sample](changeFunctionDeclaration.js)

@@ -11,31 +11,33 @@ Replace the name of the function.
 Replace the name of the function everywhere is used.
 ## Sample
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
+*/
     getFName(){
         return this.firstName + ' ' + this.lastName;
     }
-}
+//}
 ```
 ![After refactoring](../../images/arrow.png)
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-    
+*/ 
     getFullName(){
         return this.firstName + ' ' + this.lastName;
     }
-}
+//}
 ```
 
 [See code sample](changeFunctionDeclaration.js)

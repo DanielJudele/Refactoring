@@ -10,15 +10,15 @@ Replace the name of the function.
 ## How?
 Replace the name of the function everywhere is used.
 ## Sample
+For simplicity I commented the code which it was not changed.
 ```js
-/*
-class Person{
+/*class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
-    }
-*/
+    }*/
+
     getFName(){
         return this.firstName + ' ' + this.lastName;
     }
@@ -26,14 +26,13 @@ class Person{
 ```
 ![After refactoring](../../images/arrow.png)
 ```js
-/*
-class Person{
+/*class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
-    }
-*/ 
+    }*/ 
+
     getFullName(){
         return this.firstName + ' ' + this.lastName;
     }

@@ -37,4 +37,5 @@ class Person{
     }
 }
 ```
+
 [See code sample](changeFunctionDeclaration.js)

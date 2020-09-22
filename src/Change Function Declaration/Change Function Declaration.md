@@ -10,7 +10,7 @@ Replace the name of the function.
 ## How?
 Replace the name of the function everywhere is used.
 ## Sample
-For simplicity I commented the code which it was not changed.
+For simplicity, I commented the code that is not changed.
 ```js
 /*class Person{
     constructor(firstName, lastName, dateOfBirth){

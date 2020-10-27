@@ -39,4 +39,5 @@ For simplicity, I commented the code that is not changed.
 //}
 ```
 
-[See code sample](changeFunctionDeclaration.js)
+[See code before refactoring](changeFunctionDeclarationOriginal.js) <br/>
+[See code after refactoring](changeFunctionDeclaration.js)

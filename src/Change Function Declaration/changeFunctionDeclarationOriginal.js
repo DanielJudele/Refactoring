@@ -1,4 +1,4 @@
-// Refactored code
+// Original code
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -15,7 +15,7 @@ class Person{
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
 
-    getFullName(){
+    getFName(){
         return this.firstName + ' ' + this.lastName;
     }
 
@@ -31,4 +31,4 @@ class Person{
     }
 }
 
-module.exports.Person = Person;
+module.exports.OriginalPerson =  Person;

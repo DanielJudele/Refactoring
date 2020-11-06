@@ -1,6 +1,6 @@
-# Rename Variable
+# Combine Functions into Class
 ## Why?
-You have multiple functions that have the related behavior like an object.
+You have multiple functions that have related behavior like an object.
 ### Benefits:
 - code is more readable
 - provide a reference, an object to pass to other systems.
@@ -11,42 +11,10 @@ Encapsulate in a class all related functions.
 - Move all the related functions to that class
 - Test
 ## Sample
+For simplicity, I commented the code that is not changed.
 **Before**
 ```js
-class Address{
-    #streetName;
-    #streetNumber;
-    #town;
-    #country;
-
-    constructor(streetName, streetNumber, town, country){
-        this.#streetName = streetName;
-        this.#streetNumber = streetNumber;
-        this.#town = town;
-        this.#country = country;
-    }
-    
-    get Country(){
-        return this.#country;
-    }
-
-    get StreetName(){
-        return this.#streetName;
-    }
-    
-    get StreetNumber(){
-        return this.#streetNumber;
-    }
-
-    get Town(){
-        return this.#town;
-    }
-
-    getFormattedAddress(){
-        return 'StreetName: ' + this.#streetName + '; StreetNumber: ' + this.#streetNumber + '; Town:' + this.#town + '; Country: ' + this.#country;
-    }
-}
-
+/*
 class Person{
     #firstName;
     #lastName;
@@ -94,6 +62,7 @@ class Person{
     get FullName(){
         return this.#firstName + ' ' + this.#lastName;
     }
+*/
 
     get Income(){
         return this.#income;
@@ -114,7 +83,7 @@ class Person{
     getBalance(){
         return this.#income - this.#expenses;
     }
-
+/*
     printPerson(){
         let age = this.getAge();
         this.showDetails(age);
@@ -129,46 +98,10 @@ class Person{
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
-}
-
-module.exports = { Person, Address};
+}*/
 ```
-**After refactoring**
+![After refactoring](../../images/arrow.png)
 ```js
-class Address{
-    #streetName;
-    #streetNumber;
-    #town;
-    #country;
-
-    constructor(streetName, streetNumber, town, country){
-        this.#streetName = streetName;
-        this.#streetNumber = streetNumber;
-        this.#town = town;
-        this.#country = country;
-    }
-    
-    get Country(){
-        return this.#country;
-    }
-
-    get StreetName(){
-        return this.#streetName;
-    }
-    
-    get StreetNumber(){
-        return this.#streetNumber;
-    }
-
-    get Town(){
-        return this.#town;
-    }
-
-    getFormattedAddress(){
-        return 'StreetName: ' + this.#streetName + '; StreetNumber: ' + this.#streetNumber + '; Town:' + this.#town + '; Country: ' + this.#country;
-    }
-}
-
 class Budget{
     #income;
     #expenses;
@@ -201,7 +134,7 @@ class Budget{
         return this.#income - this.#expenses;
     }
 }
-
+/*
 class Person{
     #firstName;
     #lastName;
@@ -270,7 +203,5 @@ class Person{
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
-}
-
-module.exports = { Person, Address, Budget};
+}*/
 ```

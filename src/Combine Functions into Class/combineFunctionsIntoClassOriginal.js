@@ -85,7 +85,7 @@ class Person{
         return this.#income;
     }
 
-    get Expenses(expenses){
+    get Expenses(){
         return this.#expenses;
     }
 

@@ -14,19 +14,25 @@ Create a new function where all the multiple functions are called to get the sam
 ## Sample
 **Before**
 ```js
-calculatePensionInsurance(gross) {
+function calculatePensionInsurance(gross) {
     return gross * 0.25;
 }
 
-calculateHealthInsurance(gross) {
+function calculateHealthInsurance(gross) {
     return gross * 0.1;
 }
 
-calculateIncomeTaxes(gross) {
+function calculateIncomeTaxes(gross) {
     return gross * 0.1;
 }
+
+//calculate net salary
+let gross = 1000;
+let netSalary = 0;
+let employeeTaxes = calculatePensionInsurance(gross) + calculateHealthInsurance(gross) + calculateIncomeTaxes(gross);
+netSalary = gross - employeeTaxes;
 ```
-**After refactoring**
+![After refactoring](../../images/arrow.png)
 ```js
 function calculatePensionInsurance(gross) {
     return gross * 0.25;

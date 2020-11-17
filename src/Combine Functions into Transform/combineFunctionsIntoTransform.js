@@ -1,18 +1,3 @@
-// Original code
-/*
-calculatePensionInsurance(gross) {
-    return gross * 0.25;
-}
-
-calculateHealthInsurance(gross) {
-    return gross * 0.1;
-}
-
-calculateIncomeTaxes(gross) {
-    return gross * 0.1;
-}
-*/
-
 // Refactored code
 function calculatePensionInsurance(gross) {
     return gross * 0.25;

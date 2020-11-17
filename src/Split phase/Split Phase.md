@@ -1,4 +1,4 @@
-# Rename Variable
+# Split Phase
 ## Why?
 You have a function that has multiple behaviors and it's hard to understand the result.
 ### Benefits:

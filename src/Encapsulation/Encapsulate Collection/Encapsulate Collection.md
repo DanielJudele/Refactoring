@@ -60,7 +60,7 @@ class Person{
 }
 
 ```
-![After refactoring](../../images/arrow.png)
+![After refactoring](../../../images/arrow.png)
 ```js
 class Person{
     #firstName;

@@ -32,7 +32,7 @@ let netSalary = 0;
 let employeeTaxes = calculatePensionInsurance(gross) + calculateHealthInsurance(gross) + calculateIncomeTaxes(gross);
 netSalary = gross - employeeTaxes;
 ```
-![After refactoring](../../images/arrow.png)
+![After refactoring](../../../images/arrow.png)
 ```js
 function calculatePensionInsurance(gross) {
     return gross * 0.25;

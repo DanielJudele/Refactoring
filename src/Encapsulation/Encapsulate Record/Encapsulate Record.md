@@ -15,7 +15,7 @@ Create a class to store the value
 ```js
 person = {firstName: "Dan", lastName:"Popescu", dateOfBirth: "6th October 2012"}
 ```
-![After refactoring](../../images/arrow.png)
+![After refactoring](../../../images/arrow.png)
 ```js
 class Person{
     constructor(data){

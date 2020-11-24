@@ -1,4 +1,4 @@
-[Refactoring](../../../../)
+[Refactoring](../../../../../)
 
 # Change Function Declaration
 ## Why?
@@ -24,7 +24,7 @@ For simplicity, I commented the code that is not changed.
     }
 //}
 ```
-![After refactoring](../../images/arrow.png)
+![After refactoring](../../../images/arrow.png)
 ```js
 /*class Person{
     constructor(firstName, lastName, dateOfBirth){

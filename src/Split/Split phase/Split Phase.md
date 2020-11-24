@@ -20,7 +20,7 @@ function calculateNetSalary(gross){
     return gross - (pensionInsurance + healthInsurance + incomeTax);
 }
 ```
-![After refactoring](../../images/arrow.png)
+![After refactoring](../../../images/arrow.png)
 ```js
 function calculatePensionInsurance(gross) {
     return gross * 0.25;

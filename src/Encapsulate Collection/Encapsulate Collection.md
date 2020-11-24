@@ -25,7 +25,7 @@ class Person{
         this.#dateOfBirth = data.dateOfBirth;
         this.#courses = [];
     }
-
+/*
     get firstName(){
         return this.#firstName;
     }
@@ -49,7 +49,7 @@ class Person{
     set dateOfBirth(value){
         this.#dateOfBirth = value;
     }
-
+*/
     get courses(){
         return this.#courses;
     }
@@ -59,9 +59,8 @@ class Person{
     }
 }
 
-module.exports = Person;
 ```
-**After refactoring**
+![After refactoring](../../images/arrow.png)
 ```js
 class Person{
     #firstName;
@@ -75,7 +74,7 @@ class Person{
         this.#dateOfBirth = data.dateOfBirth;
         this.#courses = [];
     }
-
+/*
     get firstName(){
         return this.#firstName;
     }
@@ -99,7 +98,7 @@ class Person{
     set dateOfBirth(value){
         this.#dateOfBirth = value;
     }
-
+*/
     get courses(){
         return this.#courses.slice();
     }
@@ -111,9 +110,9 @@ class Person{
     addCourse(course){
         this.#courses.push(course);
     }
-
+/*
     findCourseIndex(course){
-        const hasName = (name) => name == "Science";
+        const hasName = (name) => name == course;
         return this.#courses.findIndex(hasName);
     }
 
@@ -125,6 +124,7 @@ class Person{
             }
         }
     }
+*/
 }
 
 module.exports = Person;

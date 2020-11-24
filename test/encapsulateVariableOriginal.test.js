@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Person = require("../src/Encapsulate Variable/EncapsulateVariableOriginal.js").Original;
+var Person = require("../src/Encapsulation/Encapsulate Variable/EncapsulateVariableOriginal.js").Original;
 var personObject = new Person("Dan","Popescu", new Date(2002, 12, 01));
 
 describe("Encapsulate Variables or Field", function () {

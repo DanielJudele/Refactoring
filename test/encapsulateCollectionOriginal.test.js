@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Person = require("../src/Encapsulate collection/EncapsulateCollectionOriginal").Original;
+var Person = require("../src/Encapsulation/Encapsulate collection/EncapsulateCollectionOriginal").Original;
 var data = { firstName: "Dan", lastName: "Popescu", dateOfBirth: "6th November 2020" };
 var personObject = new Person(data);
 

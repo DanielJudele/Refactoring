@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Person = require("../src/Extract Variable/ExtractVariable");
+var Person = require("../src/Extract/Extract Variable/ExtractVariable");
 var personObject = new Person("Dan","Popescu", new Date(2002, 12, 01));
 
 describe("Extract Variable Tests", function () {

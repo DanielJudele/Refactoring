@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Person = require("../src/Inline Variable/InlineVariable");
+var Person = require("../src/Inline/Inline Variable/InlineVariable");
 var personObject = new Person("Dan","Popescu", new Date(2002, 12, 01));
 
 describe("Inline Variable Tests", function () {

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var replaceTempWithQuery = require("../src/Replace Temp with Query/replaceTempWithQuery");
+var replaceTempWithQuery = require("../src/Basic/Replace Temp with Query/replaceTempWithQuery");
 
 describe("Replace Temp with Query", function () {
     describe("Net Salary calculation", function () {

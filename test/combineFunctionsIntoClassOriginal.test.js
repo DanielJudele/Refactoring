@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Object = require("../src/Combine Functions into Class/combineFunctionsIntoClassOriginal.js");
+var Object = require("../src/Basic/Combine Functions into Class/combineFunctionsIntoClassOriginal.js");
 
 var personObject = new Object.Original.Person("Dan","Popescu", new Date(2002, 12, 01));
 var addressObject = new Object.Original.Address("Route","66","New York","United States");

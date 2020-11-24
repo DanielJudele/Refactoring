@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Object = require("../src/Introduce Parameter Object/introduceParameterObject");
+var Object = require("../src/Extract/Introduce Parameter Object/introduceParameterObject");
 var personObject = new Object.Person("Dan","Popescu", new Date(2002, 12, 01));
 var addressObject = new Object.Address("Route","66","New York","United States");
 

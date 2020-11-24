@@ -1,6 +1,5 @@
 var assert = require("assert");
-//import {Person} from '../src/Change Function Declaration/changeFunctionDeclaration.js';
-var Person = require("../src/Change Function Declaration/changeFunctionDeclaration.js").Person;
+var Person = require("../src/Basic/Change Function Declaration/changeFunctionDeclaration.js").Person;
 var personObject = new Person("Dan","Popescu", new Date(2002, 12, 01));
 
 describe("Change Function Declaration After Refactoring Tests", function () {

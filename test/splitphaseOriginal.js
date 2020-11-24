@@ -1,5 +1,5 @@
 var assert = require("assert");
-var splitPhaseOriginal = require("../src/Split phase/splitPhaseOriginal");
+var splitPhaseOriginal = require("../src/Split/Split phase/splitPhaseOriginal");
 
 describe("Split phase Before refactoring", function () {
     describe("Net Salary calculation", function () {

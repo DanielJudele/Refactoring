@@ -1,5 +1,5 @@
 var assert = require("assert");
-var personRecord = require("../src/Encapsulate Record/EncapsulateRecordOriginal").Original;
+var personRecord = require("../src/Encapsulation/Encapsulate Record/EncapsulateRecordOriginal").Original;
 
 describe("Describe Record", function () {
     describe("Record Test", function () {

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var combineFunctionsIntoTransform = require("../src/Combine Functions into Transform/combineFunctionsIntoTransformOriginal.js").Original;
+var combineFunctionsIntoTransform = require("../src/Basic/Combine Functions into Transform/combineFunctionsIntoTransformOriginal.js").Original;
 
 describe("Combine functions into Tranform Before Refactoring", function () {
     describe("Net Salary calculation", function () {

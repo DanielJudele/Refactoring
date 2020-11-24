@@ -1,5 +1,5 @@
 var assert = require("assert");
-var Person = require("../src/Rename Variable/renameVariable.js");
+var Person = require("../src/Basic/Rename Variable/renameVariable.js");
 var personObject = new Person("Dan","Popescu", new Date(2002, 12, 01));
 
 describe("Rename Variables", function () {

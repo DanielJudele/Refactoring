@@ -7,3 +7,4 @@
 ## Encapsulation
 1. [Encapsulate Collection](src/Encapsulate%20Collection/Encapsulate%20Collection.md)
 1. [Encapsulate Record](src/Encapsulate%20Record/Encapsulate%20Record.md)
+1. [Encapsulate Variable](src/Encapsulate%20Variable/Encapsulate%20Variable.md)

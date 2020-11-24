@@ -2,7 +2,7 @@
 ## Why?
 You have public field and you want to avoid other objects to update the value of that field.
 ### Benefits:
-- ?
+- The field cannot be modify from outside.
 ## What?
 Make the field private.
 ## How?
@@ -16,7 +16,7 @@ class Person{
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
+/*
     isAdult(){
         return this.getAge() >= 18;
     }
@@ -25,11 +25,11 @@ class Person{
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
-
+*/
     getFName(){
         return this.firstName + ' ' + this.lastName;
     }
-
+/*
     printPerson(){
         let age = this.getAge();
         this.showDetails(age);
@@ -40,9 +40,10 @@ class Person{
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
+*/
 }
 ```
-**After refactoring**
+![After refactoring](../../images/arrow.png)
 ```js
 class Person{
     #firstName;
@@ -54,7 +55,7 @@ class Person{
         this.#lastName = lastName;
         this.#dateOfBirth = dateOfBirth;
     }
-
+/*
     isAdult(){
         return this.getAge() >= 18;
     }
@@ -63,7 +64,7 @@ class Person{
         const diffMiliseconds = Date.now() - Date.parse(this.#dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
-
+*/
     get FirstName(){
         return this.#firstName;
     }
@@ -75,7 +76,7 @@ class Person{
     get FullName(){
         return this.#firstName + ' ' + this.#lastName;
     }
-
+/*
     printPerson(){
         let age = this.getAge();
         this.showDetails(age);
@@ -86,5 +87,6 @@ class Person{
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
+*/
 }
 ```

@@ -11,18 +11,19 @@ Replace the reference of the variable with the expression itself.
 ## Sample
 **Before**
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
+*/
     isAdult(){
         const age = this.getAge();
         return age >= 18;
     }
-
+/*
     getAge(){
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
@@ -40,20 +41,24 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+
+module.exports = Person;
+*/
 ```
 **After refactoring**
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
+*/
     isAdult(){
         return this.getAge() >= 18;
     }
-
+/*
     getAge(){
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
@@ -70,4 +75,5 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+*/
 ```

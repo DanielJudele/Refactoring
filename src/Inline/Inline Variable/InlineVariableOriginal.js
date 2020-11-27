@@ -1,4 +1,4 @@
-// Refactored code
+// Original code
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -7,7 +7,8 @@ class Person{
     }
 
     isAdult(){
-        return this.getAge() >= 18;
+        const age = this.getAge();
+        return age >= 18;
     }
 
     getAge(){
@@ -17,6 +18,7 @@ class Person{
 
     printPerson(){
         let age = this.getAge();
+
         this.showDetails(age);
     }
 

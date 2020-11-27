@@ -19,6 +19,7 @@
 
 ## Inline
 1. [Inline Function](src/Inline/Inline%20Function/Inline%20Function.md)
+1. [Inline Variable](src/Inline/Inline%20Variable/Inline%20Variable.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

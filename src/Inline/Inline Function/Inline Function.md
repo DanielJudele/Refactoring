@@ -13,27 +13,28 @@ Replace the call to that function with the content of the function itself.
 ## Sample
 **Before**
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
-    isAdult(){
-        const age = this.getAge();
-        return hasMoreThan18(age);
-    }
-
-    getAge(){
-        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
-        return new Date(diffMiliseconds).getFullYear() - 1970;
-    }
-
+*/        
     hasMoreThan18(age){
         return age >= 18;
     }
 
+    isAdult(){
+        const age = this.getAge();
+        return this.hasMoreThan18(age);
+    }
+
+    getAge(){
+        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
+        return new Date(diffMiliseconds).getFullYear() - 1970;
+    }
+/*
     printPerson(){
         let age = this.getAge();
 
@@ -46,16 +47,20 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+
+module.exports = Person;
+*/
 ```
-**After refactoring**
+![After refactoring](../../../images/arrow.png)
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
+*/
     isAdult(){
         const age = this.getAge();
         return age >= 18;
@@ -65,7 +70,7 @@ class Person{
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
-
+/*
     printPerson(){
         let age = this.getAge();
 
@@ -78,4 +83,5 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
-```
+
+module.exports = Person;*/

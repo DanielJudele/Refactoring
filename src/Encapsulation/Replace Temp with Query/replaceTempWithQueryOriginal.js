@@ -1,13 +1,9 @@
-// Refactored code
+// Original code
 class SalaryCalculator{
     #gross;
 
     constructor (gross){
         this.#gross = gross;
-    }
-
-    get employeeTaxes(){
-        return this.calculatePensionInsurance() + this.calculateHealthInsurance() + this.calculateIncomeTaxes();
     }
 
     calculatePensionInsurance() {
@@ -23,7 +19,8 @@ class SalaryCalculator{
     }
 
     calculateNetSalary(){
-        return this.#gross - this.employeeTaxes;
+        let employeeTaxes = this.calculatePensionInsurance() + this.calculateHealthInsurance() + this.calculateIncomeTaxes();
+        return this.#gross - employeeTaxes;
     }
 }
 

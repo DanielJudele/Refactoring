@@ -14,6 +14,7 @@ Move the entire expression to a separate function and return the result from it.
 ## Sample
 **Before**
 ```js
+/*
 class SalaryCalculator{
     #gross;
 
@@ -32,44 +33,48 @@ class SalaryCalculator{
     calculateIncomeTaxes() {
         return this.#gross * 0.1;
     }
-
-    calculateNetSalary(){
-        let employeeTaxes = calculatePensionInsurance(this.#gross) + calculateHealthInsurance(this.#gross) + calculateIncomeTaxes(this.#gross);
-        return gross - employeeTaxes;
+*/
+     calculateNetSalary(){
+        let employeeTaxes = this.calculatePensionInsurance() + this.calculateHealthInsurance() + this.calculateIncomeTaxes();
+        return this.#gross - employeeTaxes;
     }
+/*   
 }
 
 module.exports.SalaryCalculator = SalaryCalculator;
+*/
 ```
-**After refactoring**
+![After refactoring](../../../images/arrow.png)
 ```js
+/*
 class SalaryCalculator{
     #gross;
 
     constructor (gross){
         this.#gross = gross;
     }
-
+*/
     get employeeTaxes(){
         return this.calculatePensionInsurance() + this.calculateHealthInsurance() + this.calculateIncomeTaxes();
-    }
-
-    calculatePensionInsurance() {
-        return this.#gross * 0.25;
-    }
-
-    calculateHealthInsurance() {
-        return this.#gross * 0.1;
-    }
-
-    calculateIncomeTaxes() {
-        return this.#gross * 0.1;
     }
 
     calculateNetSalary(){
         return this.#gross - this.employeeTaxes;
     }
+/*
+    calculatePensionInsurance() {
+        return this.#gross * 0.25;
+    }
+
+    calculateHealthInsurance() {
+        return this.#gross * 0.1;
+    }
+
+    calculateIncomeTaxes() {
+        return this.#gross * 0.1;
+    }
 }
 
 module.exports.SalaryCalculator = SalaryCalculator;
+*/
 ```

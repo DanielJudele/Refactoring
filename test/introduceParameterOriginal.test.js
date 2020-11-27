@@ -1,9 +1,8 @@
 var assert = require("assert");
-var Object = require("../src/Basic/Introduce Parameter Object/introduceParameterObject");
+var Object = require("../src/Basic/Introduce Parameter Object/introduceParameterObjectOriginal");
 var personObject = new Object.Person("Dan","Popescu", new Date(2002, 12, 01));
-var addressObject = new Object.Address("Route","66","New York","United States");
 
-describe("Introduce Parameter Object", function () {
+describe("Introduce Parameter Object Original", function () {
     describe("Constructor Test", function () {
         it("Object is created", function () {
             assert(personObject);
@@ -26,7 +25,7 @@ describe("Introduce Parameter Object", function () {
         })
     }),
     describe("Address Test", function () {
-        personObject.Address = addressObject;
+        personObject.setAddress("Route","66","New York","United States");
         it("Has street Name", function () {
             assert.equal("Route",personObject.Address.StreetName);
         })

@@ -14,30 +14,7 @@ Move the code which can be grouped to a new function/method and replace the old 
 ## Sample
 **Before**
 ```js
-                class Person{
-                    constructor(firstName, lastName, dateOfBirth){
-                        this.firstName = firstName;
-                        this.lastName = lastName;
-                        this.dateOfBirth = dateOfBirth;
-                    }
-
-                    getAge(){
-                        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
-                        return new Date(diffMiliseconds).getFullYear() - 1970;
-                    }
-
-                    printPerson(){
-                        let age = this.getAge();
-                        
-                        console.log(`name: ${this.firname}`);
-                        console.log(`name: ${this.lastName}`);
-                        console.log(`name: ${age}`);
-
-                    }
-                }
-```
-**After refactoring**
-```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -49,7 +26,35 @@ class Person{
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
+*/
+    printPerson(){
+        let age = this.getAge();
 
+        console.log(`name: ${this.firname}`);
+        console.log(`name: ${this.lastName}`);
+        console.log(`name: ${age}`);
+    }
+/*
+}
+
+module.exports = Person;
+*/
+```
+![After refactoring](../../../images/arrow.png)
+```js
+/*
+class Person{
+    constructor(firstName, lastName, dateOfBirth){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    getAge(){
+        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
+        return new Date(diffMiliseconds).getFullYear() - 1970;
+    }
+*/
     printPerson(){
         let age = this.getAge();
 
@@ -61,5 +66,9 @@ class Person{
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
+/*
 }
+
+module.exports = Person;
+*/
 ```

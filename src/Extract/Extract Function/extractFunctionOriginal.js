@@ -1,5 +1,4 @@
-// Refactored code
-
+// Original code
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -15,10 +14,6 @@ class Person{
     printPerson(){
         let age = this.getAge();
 
-        this.showDetails(age);
-    }
-
-    showDetails(age){
         console.log(`name: ${this.firname}`);
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);

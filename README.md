@@ -13,5 +13,8 @@
 1. [Encapsulate Variable](src/Encapsulation/Encapsulate%20Variable/Encapsulate%20Variable.md)
 1. [Replace Temp with Query](src/Encapsulation/Replace%20Temp%20with%20Query/Replace%20Temp%20with%20Query.md)
 
+## Extract
+1. [Extract Function](src/Extract/Extract%20Function/Extract%20Function.md)
+
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

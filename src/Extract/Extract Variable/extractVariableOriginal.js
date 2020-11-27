@@ -1,4 +1,4 @@
-// Refactored code
+// Original code
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -12,13 +12,11 @@ class Person{
     }
 
     getAge(){
-        const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
-        return new Date(diffMiliseconds).getFullYear() - 1970;
+        return new Date(Date.now() - Date.parse(this.dateOfBirth)).getFullYear() - 1970;
     }
 
     printPerson(){
         let age = this.getAge();
-
         this.showDetails(age);
     }
 

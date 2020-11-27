@@ -13,6 +13,7 @@ Set the result of the expression to a immutable variable.
 ## Sample
 **Before**
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -24,11 +25,11 @@ class Person{
         const age = this.getAge();
         return age >= 18;
     }
-
+*/
     getAge(){
         return new Date(Date.now() - Date.parse(this.dateOfBirth)).getFullYear() - 1970;
     }
-
+/*
     printPerson(){
         let age = this.getAge();
         this.showDetails(age);
@@ -40,9 +41,13 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+
+module.exports = Person;
+*/
 ```
-**After refactoring**
+![After refactoring](../../../images/arrow.png)
 ```js
+/*
 class Person{
     constructor(firstName, lastName, dateOfBirth){
         this.firstName = firstName;
@@ -54,12 +59,12 @@ class Person{
         const age = this.getAge();
         return age >= 18;
     }
-
+*/
     getAge(){
         const diffMiliseconds = Date.now() - Date.parse(this.dateOfBirth);
         return new Date(diffMiliseconds).getFullYear() - 1970;
     }
-
+/*
     printPerson(){
         let age = this.getAge();
 
@@ -72,4 +77,7 @@ class Person{
         console.log(`name: ${age}`);
     }
 }
+
+module.exports = Person;
+*/
 ```

@@ -15,6 +15,7 @@
 
 ## Extract
 1. [Extract Function](src/Extract/Extract%20Function/Extract%20Function.md)
+1. [Extract Variable](src/Extract/Extract%20Variable/Extract%20Variable.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

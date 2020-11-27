@@ -2,7 +2,7 @@
 ## Why?
 You have a variable doesn't have a well name. "Naming is the heart of clear programming".
 ### Benefits:
-- ?
+- code is more readable, more easy to follow.
 ## What?
 Rename variable.
 ## How?
@@ -11,6 +11,7 @@ Rename variable.
 ## Sample
 **Before**
 ```js
+/*
 class Person{
     #firstName;
     #lastName;
@@ -42,21 +43,23 @@ class Person{
     get FullName(){
         return this.#firstName + ' ' + this.#lastName;
     }
-
+*/
     printPerson(){
         let a = this.getAge();
         this.showDetails(a);
     }
-
+/*
     showDetails(age){
         console.log(`name: ${this.firname}`);
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
+*/
 }
 ```
-**After refactoring**
+![After refactoring](../../../images/arrow.png)
 ```js
+/*
 class Person{
     #firstName;
     #lastName;
@@ -88,16 +91,17 @@ class Person{
     get FullName(){
         return this.#firstName + ' ' + this.#lastName;
     }
-
+*/
     printPerson(){
         let age = this.getAge();
         this.showDetails(age);
     }
-
+/*
     showDetails(age){
         console.log(`name: ${this.firname}`);
         console.log(`name: ${this.lastName}`);
         console.log(`name: ${age}`);
     }
+*/
 }
 ```

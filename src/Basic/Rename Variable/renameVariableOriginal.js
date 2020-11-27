@@ -1,4 +1,5 @@
-// Refactored code
+// Original code
+
 class Person{
     #firstName;
     #lastName;
@@ -32,8 +33,8 @@ class Person{
     }
 
     printPerson(){
-        let age = this.getAge();
-        this.showDetails(age);
+        let a = this.getAge();
+        this.showDetails(a);
     }
 
     showDetails(age){

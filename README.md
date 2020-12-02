@@ -11,6 +11,7 @@
 1. [Encapsulate Collection](src/Encapsulation/Encapsulate%20Collection/Encapsulate%20Collection.md)
 1. [Encapsulate Record](src/Encapsulation/Encapsulate%20Record/Encapsulate%20Record.md)
 1. [Encapsulate Variable](src/Encapsulation/Encapsulate%20Variable/Encapsulate%20Variable.md)
+1. [Replace Primitive with Object](src/Encapsulation/Replace%20Primitive%20with%20Object/Replace%20Primitive%20with%20Object.md)
 1. [Replace Temp with Query](src/Encapsulation/Replace%20Temp%20with%20Query/Replace%20Temp%20with%20Query.md)
 
 ## Extract

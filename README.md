@@ -15,6 +15,7 @@
 1. [Replace Temp with Query](src/Encapsulation/Replace%20Temp%20with%20Query/Replace%20Temp%20with%20Query.md)
 
 ## Extract
+1. [Extract Class](src/Extract/Extract%20Class/Extract%20Class.md)
 1. [Extract Function](src/Extract/Extract%20Function/Extract%20Function.md)
 1. [Extract Variable](src/Extract/Extract%20Variable/Extract%20Variable.md)
 

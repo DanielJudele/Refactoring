@@ -20,8 +20,15 @@
 1. [Extract Variable](src/Extract/Extract%20Variable/Extract%20Variable.md)
 
 ## Inline
+1. [Inline Class](src/Inline/Inline%20Class/Inline%20Class.md)
 1. [Inline Function](src/Inline/Inline%20Function/Inline%20Function.md)
 1. [Inline Variable](src/Inline/Inline%20Variable/Inline%20Variable.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
+
+
+
+[Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)
+
+[Online catalog of refactorings, Martin Fowler](https://refactoring.com/catalog/)

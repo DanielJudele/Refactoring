@@ -1,10 +1,31 @@
-// Refactored code
+// Original code
+class Department{
+    #manager;
+    #name;
+    constructor(name){
+        this.#name = name;
+    }
+
+    set manager(value){
+     this.#manager = value;   
+    }
+
+    get manager(){
+        return this.#manager;   
+    }
+
+    get name(){
+        return this.#name;   
+    }
+}
+
 class Person{
     #firstName;
     #lastName;
     #dateOfBirth;
     #officeAreaCode;
     #officeNumber;
+    #department;
 
     constructor(data){
         this.#firstName = data.firstName;
@@ -39,6 +60,22 @@ class Person{
     get officeAreaCode(){
         return this.#officeAreaCode;
     }
+
+    set department(value){
+        this.#department = value;
+    }
+
+    get fullName(){
+        return this.#firstName + ' ' + this.#lastName;
+    }
+    
+    get departmentName(){
+        return this.#department.name;
+    }
+
+    get manager(){
+        return this.#department.manager;
+    }
     
     set officeAreaCode(value){
         this.#officeAreaCode = value;
@@ -53,4 +90,4 @@ class Person{
     }
 }
 
-module.exports = Person;
+module.exports = {Person, Department};

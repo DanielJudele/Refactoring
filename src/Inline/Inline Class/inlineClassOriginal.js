@@ -1,4 +1,4 @@
-// Refactored code
+// Original code
 class TelephoneNumber {
     #areaCode;
     #number; 

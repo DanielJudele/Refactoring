@@ -14,6 +14,7 @@
 1. [Hide Delegate](src/Encapsulation/Hide%20Delegate/Hide%20Delegate.md)
 1. [Replace Primitive with Object](src/Encapsulation/Replace%20Primitive%20with%20Object/Replace%20Primitive%20with%20Object.md)
 1. [Replace Temp with Query](src/Encapsulation/Replace%20Temp%20with%20Query/Replace%20Temp%20with%20Query.md)
+1. [Substitute Algorithm](src/Encapsulation/Substitute%20Algorithm/Substitute%20Algorithm.md)
 
 ## Extract
 1. [Extract Class](src/Extract/Extract%20Class/Extract%20Class.md)

@@ -32,6 +32,9 @@
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
 
+## Moving Features
+1. [Moving Function](src/Moving%20Features/Move%20Function/Move%20Function.md)
+
 
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)

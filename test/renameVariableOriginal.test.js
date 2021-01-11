@@ -16,12 +16,12 @@ describe("Rename Variables Original", function () {
         it("Has full Name", function () {
             assert.equal("Dan Popescu",personObject.FullName);
         }),
-        it("He is 17 age old", function () {
+        it("He is 18 age old", function () {
             const age = personObject.getAge();
-            assert.equal(17, age);
+            assert.equal(18, age);
         }),
         it("He is not an adult", function () {
-            assert.equal(false, personObject.isAdult());
+            assert.equal(true, personObject.isAdult());
         })
     })
 });

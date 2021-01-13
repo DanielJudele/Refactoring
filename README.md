@@ -28,6 +28,7 @@
 
 ## Remove
 1. [Remove Middle Man](src/Remove/Remove%20Middle%20Man/Remove%20Middle%20Man.md)
+1. [Remove Dead Code](src/Remove/Remove%20Dead%20Code/Remove%20Dead%20Code.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

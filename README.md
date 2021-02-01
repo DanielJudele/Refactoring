@@ -37,6 +37,7 @@
 1. [Move Function](src/Moving%20Features/Move%20Function/Move%20Function.md)
 1. [Move Field](src/Moving%20Features/Move%20Field/Move%20Field.md)
 1. [Move statements into Function](src/Moving%20Features/Move%20statements%20into%20Function/Move%20statements%20into%20Function.md)
+1. [Move statements to Callers](src/Moving%20Features/Move%20statements%20to%20Callers/Move%20statements%20to%20Callers.md)
 
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)

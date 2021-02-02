@@ -39,6 +39,7 @@
 1. [Move statements into Function](src/Moving%20Features/Move%20statements%20into%20Function/Move%20statements%20into%20Function.md)
 1. [Move statements to Callers](src/Moving%20Features/Move%20statements%20to%20Callers/Move%20statements%20to%20Callers.md)
 1. [Replace Inline Code with Function Call](src/Moving%20Features/Replace%20Inline%20Code%20with%20Function%20Call/Replace%20Inline%20Code%20with%20Function%20Call.md)
+1. [Slide statements](src/Moving%20Features/Slide%20statements/Slide%20statements.md)
 
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)

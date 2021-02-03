@@ -27,9 +27,6 @@
 1. [Inline Function](src/Inline/Inline%20Function/Inline%20Function.md)
 1. [Inline Variable](src/Inline/Inline%20Variable/Inline%20Variable.md)
 
-## Split
-1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
-
 ## Moving Features
 1. [Move Function](src/Moving%20Features/Move%20Function/Move%20Function.md)
 1. [Move Field](src/Moving%20Features/Move%20Field/Move%20Field.md)
@@ -40,6 +37,12 @@
 1. [Replace loop with pipeline](src/Moving%20Features/Replace%20loop%20with%20pipeline/Replace%20loop%20with%20pipeline.md)
 1. [Slide statements](src/Moving%20Features/Slide%20statements/Slide%20statements.md)
 1. [Split loop](src/Moving%20Features/Split%20loop/Split%20loop.md)
+
+## Organizing Data
+1. [Split Variable](src/Organizing%20Data/Split%20Variable/Split%20Variable.md)
+
+## Split
+1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
 
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)

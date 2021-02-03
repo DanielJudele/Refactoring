@@ -12,6 +12,7 @@
 1. [Encapsulate Record](src/Encapsulation/Encapsulate%20Record/Encapsulate%20Record.md)
 1. [Encapsulate Variable](src/Encapsulation/Encapsulate%20Variable/Encapsulate%20Variable.md)
 1. [Hide Delegate](src/Encapsulation/Hide%20Delegate/Hide%20Delegate.md)
+1. [Remove Middle Man](src/Encapsulation/Remove%20Middle%20Man/Remove%20Middle%20Man.md)
 1. [Replace Primitive with Object](src/Encapsulation/Replace%20Primitive%20with%20Object/Replace%20Primitive%20with%20Object.md)
 1. [Replace Temp with Query](src/Encapsulation/Replace%20Temp%20with%20Query/Replace%20Temp%20with%20Query.md)
 1. [Substitute Algorithm](src/Encapsulation/Substitute%20Algorithm/Substitute%20Algorithm.md)
@@ -26,10 +27,6 @@
 1. [Inline Function](src/Inline/Inline%20Function/Inline%20Function.md)
 1. [Inline Variable](src/Inline/Inline%20Variable/Inline%20Variable.md)
 
-## Remove
-1. [Remove Middle Man](src/Remove/Remove%20Middle%20Man/Remove%20Middle%20Man.md)
-1. [Remove Dead Code](src/Remove/Remove%20Dead%20Code/Remove%20Dead%20Code.md)
-
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
 
@@ -37,7 +34,8 @@
 1. [Move Function](src/Moving%20Features/Move%20Function/Move%20Function.md)
 1. [Move Field](src/Moving%20Features/Move%20Field/Move%20Field.md)
 1. [Move statements into Function](src/Moving%20Features/Move%20statements%20into%20Function/Move%20statements%20into%20Function.md)
-1. [Move statements to Callers](src/Moving%20Features/Move%20statements%20to%20Callers/Move%20statements%20to%20Callers.md)
+1. [Move statements to Callers](src/Moving%20Features%20Features/Move%20statements%20to%20Callers/Move%20statements%20to%20Callers.md)
+1. [Remove Dead Code](src/Remove/Remove%20Dead%20Code/Remove%20Dead%20Code.md)
 1. [Replace Inline Code with Function Call](src/Moving%20Features/Replace%20Inline%20Code%20with%20Function%20Call/Replace%20Inline%20Code%20with%20Function%20Call.md)
 1. [Replace loop with pipeline](src/Moving%20Features/Replace%20loop%20with%20pipeline/Replace%20loop%20with%20pipeline.md)
 1. [Slide statements](src/Moving%20Features/Slide%20statements/Slide%20statements.md)

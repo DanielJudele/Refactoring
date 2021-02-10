@@ -40,6 +40,7 @@
 
 ## Organizing Data
 1. [Split Variable](src/Organizing%20Data/Split%20Variable/Split%20Variable.md)
+1. [Rename Field](src/Organizing%20Data/Rename%20Field/Rename%20Field.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

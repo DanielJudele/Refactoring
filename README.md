@@ -41,6 +41,7 @@
 ## Organizing Data
 1. [Split Variable](src/Organizing%20Data/Split%20Variable/Split%20Variable.md)
 1. [Rename Field](src/Organizing%20Data/Rename%20Field/Rename%20Field.md)
+1. [Replace Derived Variable with Query](src/Organizing%20Data/Replace%20Derived%20Variable%20with%20Query/Replace%20Derived%20Variable%20with%20Query.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

@@ -49,6 +49,7 @@
 1. [Decompose Conditional](src/Simplifying%20Conditional%20Logic/Decompose%20Conditional/Decompose%20Conditional.md)
 1. [Consolidate Conditional Expression](src/Simplifying%20Conditional%20Logic/Consolidate%20Conditional%20Expression/Consolidate%20Conditional%20Expression.md)
 1. [Replace Nested Conditional with Guard Clauses](src/Simplifying%20Conditional%20Logic/Replace%20Nested%20Conditional%20with%20Guard%20Clauses/Replace%20Nested%20Conditional%20with%20Guard%20Clauses.md)
+1. [Replace Conditional with Polymorphism](src/Simplifying%20Conditional%20Logic/Replace%20Conditional%20with%20Polymorphism/Replace%20Conditional%20with%20Polymorphism.md)
 
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)

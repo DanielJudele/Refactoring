@@ -45,6 +45,10 @@
 1. [Replace Derived Variable with Query](src/Organizing%20Data/Replace%20Derived%20Variable%20with%20Query/Replace%20Derived%20Variable%20with%20Query.md)
 1. [Split Variable](src/Organizing%20Data/Split%20Variable/Split%20Variable.md)
 
+## Simplifying Conditional Logic
+1. [Decompose Conditional](src/Simplifying%20Conditional%20Logic/Decompose%20Conditional/Decompose%20Conditional.md)
+
+
 ## Split
 1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
 

@@ -45,6 +45,9 @@
 1. [Replace Derived Variable with Query](src/Organizing%20Data/Replace%20Derived%20Variable%20with%20Query/Replace%20Derived%20Variable%20with%20Query.md)
 1. [Split Variable](src/Organizing%20Data/Split%20Variable/Split%20Variable.md)
 
+## Refactoring APIs
+1. [Separate Query from Modifier](src/Refactoring%20APIs/Separate%20Query%20from%20Modifier/Separate%20Query%20from%20Modifier.md)
+
 ## Simplifying Conditional Logic
 1. [Consolidate Conditional Expression](src/Simplifying%20Conditional%20Logic/Consolidate%20Conditional%20Expression/Consolidate%20Conditional%20Expression.md)
 1. [Decompose Conditional](src/Simplifying%20Conditional%20Logic/Decompose%20Conditional/Decompose%20Conditional.md)

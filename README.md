@@ -48,6 +48,7 @@
 ## Refactoring APIs
 1. [Separate Query from Modifier](src/Refactoring%20APIs/Separate%20Query%20from%20Modifier/Separate%20Query%20from%20Modifier.md)
 1. [Parameterize Function](src/Refactoring%20APIs/Parameterize%20Function/Parameterize%20Function.md)
+1. [Remove Flag Argument](src/Refactoring%20APIs/Remove%20Flag%20Argument/Remove%20Flag%20Argument.md)
 
 ## Simplifying Conditional Logic
 1. [Consolidate Conditional Expression](src/Simplifying%20Conditional%20Logic/Consolidate%20Conditional%20Expression/Consolidate%20Conditional%20Expression.md)

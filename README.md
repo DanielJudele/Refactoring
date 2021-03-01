@@ -48,8 +48,11 @@
 ## Refactoring APIs
 1. [Separate Query from Modifier](src/Refactoring%20APIs/Separate%20Query%20from%20Modifier/Separate%20Query%20from%20Modifier.md)
 1. [Parameterize Function](src/Refactoring%20APIs/Parameterize%20Function/Parameterize%20Function.md)
-1. [Remove Flag Argument](src/Refactoring%20APIs/Remove%20Flag%20Argument/Remove%20Flag%20Argument.md)
 1. [Preserve Whole Object](src/Refactoring%20APIs/Preserve%20Whole%20Object/Preserve%20Whole%20Object.md)
+1. [Remove Flag Argument](src/Refactoring%20APIs/Remove%20Flag%20Argument/Remove%20Flag%20Argument.md)
+1. [Remove Setting Method](src/Refactoring%20APIs/Remove%20Setting%20Method/Remove%20Setting%20Method.md)
+1. [Replace Parameter with Query](src/Refactoring%20APIs/Replace%20Parameter%20with%20Query/Replace%20Parameter%20with%20Query.md)
+1. [Replace Query with Parameter](src/Refactoring%20APIs/Replace%20Query%20with%20Parameter/Replace%20Query%20with%20Parameter.md)
 
 
 ## Simplifying Conditional Logic

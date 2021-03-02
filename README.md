@@ -71,6 +71,7 @@
 ## Dealing with Inheritance
 1. [Pull Up Method](src/Refactoring%20APIs/Pull%20Up%20Method/Pull%20Up%20Method.md)
 1. [Pull Up Field](src/Refactoring%20APIs/Pull%20Up%20Field/Pull%20Up%20Field.md)
+1. [Pull Down Method](src/Refactoring%20APIs/Pull%20Down%20Method/Pull%20Down%20Method.md)
 
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)

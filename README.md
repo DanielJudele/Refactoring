@@ -78,6 +78,7 @@
 1. [Remove Subclass](src/Dealing%20with%20Inheritance/Remove%20Subclass/Remove%20Subclass.md)
 1. [Replace Type Code with Subclasses](src/Dealing%20with%20Inheritance/Replace%20Type%20Code%20with%20Subclasses/Replace%20Type%20Code%20with%20Subclasses.md)
 1. [Replace Subclass with Delegate](src/Dealing%20with%20Inheritance/Replace%20Subclass%20with%20Delegate/Replace%20Subclass%20with%20Delegate.md)
+1. [Replace Superclass with Delegate](src/Dealing%20with%20Inheritance/Replace%20Superclass%20with%20Delegate/Replace%20Superclass%20with%20Delegate.md)
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)
 

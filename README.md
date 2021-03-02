@@ -45,6 +45,17 @@
 1. [Replace Derived Variable with Query](src/Organizing%20Data/Replace%20Derived%20Variable%20with%20Query/Replace%20Derived%20Variable%20with%20Query.md)
 1. [Split Variable](src/Organizing%20Data/Split%20Variable/Split%20Variable.md)
 
+## Simplifying Conditional Logic
+1. [Consolidate Conditional Expression](src/Simplifying%20Conditional%20Logic/Consolidate%20Conditional%20Expression/Consolidate%20Conditional%20Expression.md)
+1. [Decompose Conditional](src/Simplifying%20Conditional%20Logic/Decompose%20Conditional/Decompose%20Conditional.md)
+1. [Introduce Special Case](src/Simplifying%20Conditional%20Logic/Introduce%20Special%20Case/Introduce%20Special%20Case.md)
+1. [Introduce Assertion](src/Simplifying%20Conditional%20Logic/Introduce%20Assertion/Introduce%20Assertion.md)
+1. [Replace Nested Conditional with Guard Clauses](src/Simplifying%20Conditional%20Logic/Replace%20Nested%20Conditional%20with%20Guard%20Clauses/Replace%20Nested%20Conditional%20with%20Guard%20Clauses.md)
+1. [Replace Conditional with Polymorphism](src/Simplifying%20Conditional%20Logic/Replace%20Conditional%20with%20Polymorphism/Replace%20Conditional%20with%20Polymorphism.md)
+
+## Split
+1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
+
 ## Refactoring APIs
 1. [Separate Query from Modifier](src/Refactoring%20APIs/Separate%20Query%20from%20Modifier/Separate%20Query%20from%20Modifier.md)
 1. [Parameterize Function](src/Refactoring%20APIs/Parameterize%20Function/Parameterize%20Function.md)
@@ -57,17 +68,8 @@
 1. [Replace Function with Command](src/Refactoring%20APIs/Replace%20Function%20with%20Command/Replace%20Function%20with%20Command.md)
 1. [Replace Command with Function](src/Refactoring%20APIs/Replace%20Command%20with%20Function/Replace%20Command%20with%20Function.md)
 
-## Simplifying Conditional Logic
-1. [Consolidate Conditional Expression](src/Simplifying%20Conditional%20Logic/Consolidate%20Conditional%20Expression/Consolidate%20Conditional%20Expression.md)
-1. [Decompose Conditional](src/Simplifying%20Conditional%20Logic/Decompose%20Conditional/Decompose%20Conditional.md)
-1. [Introduce Special Case](src/Simplifying%20Conditional%20Logic/Introduce%20Special%20Case/Introduce%20Special%20Case.md)
-1. [Introduce Assertion](src/Simplifying%20Conditional%20Logic/Introduce%20Assertion/Introduce%20Assertion.md)
-1. [Replace Nested Conditional with Guard Clauses](src/Simplifying%20Conditional%20Logic/Replace%20Nested%20Conditional%20with%20Guard%20Clauses/Replace%20Nested%20Conditional%20with%20Guard%20Clauses.md)
-1. [Replace Conditional with Polymorphism](src/Simplifying%20Conditional%20Logic/Replace%20Conditional%20with%20Polymorphism/Replace%20Conditional%20with%20Polymorphism.md)
-
-## Split
-1. [Split phase](src/Split/Split%20Phase/Split%20Phase.md)
-
+## Dealing with Inheritance
+1. [Pull Up Method](src/Refactoring%20APIs/Pull%20Up%20Method/Pull%20Up%20Method.md)
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)
 

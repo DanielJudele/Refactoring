@@ -54,7 +54,7 @@
 1. [Replace Parameter with Query](src/Refactoring%20APIs/Replace%20Parameter%20with%20Query/Replace%20Parameter%20with%20Query.md)
 1. [Replace Query with Parameter](src/Refactoring%20APIs/Replace%20Query%20with%20Parameter/Replace%20Query%20with%20Parameter.md)
 1. [Replace Constructor with Factory Function](src/Refactoring%20APIs/Replace%20Constructor%20with%20Factory%20Function/Replace%20Constructor%20with%20Factory%20Function.md)
-
+1. [Replace Function with Command](src/Refactoring%20APIs/Replace%20Function%20with%20Command/Replace%20Function%20with%20Command.md)
 
 ## Simplifying Conditional Logic
 1. [Consolidate Conditional Expression](src/Simplifying%20Conditional%20Logic/Consolidate%20Conditional%20Expression/Consolidate%20Conditional%20Expression.md)

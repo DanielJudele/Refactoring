@@ -53,6 +53,7 @@
 1. [Remove Setting Method](src/Refactoring%20APIs/Remove%20Setting%20Method/Remove%20Setting%20Method.md)
 1. [Replace Parameter with Query](src/Refactoring%20APIs/Replace%20Parameter%20with%20Query/Replace%20Parameter%20with%20Query.md)
 1. [Replace Query with Parameter](src/Refactoring%20APIs/Replace%20Query%20with%20Parameter/Replace%20Query%20with%20Parameter.md)
+1. [Replace Constructor with Factory Function](src/Refactoring%20APIs/Replace%20Constructor%20with%20Factory%20Function/Replace%20Constructor%20with%20Factory%20Function.md)
 
 
 ## Simplifying Conditional Logic

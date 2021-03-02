@@ -69,6 +69,7 @@
 1. [Replace Command with Function](src/Refactoring%20APIs/Replace%20Command%20with%20Function/Replace%20Command%20with%20Function.md)
 
 ## Dealing with Inheritance
+1. [Collapse Hierarchy](src/Refactoring%20APIs/Collapse%20Hierarchy/Collapse%20Hierarchy.md)
 1. [Extras Superclass](src/Refactoring%20APIs/Extras%20Superclass/Extras%20Superclass.md)
 1. [Pull Up Method](src/Refactoring%20APIs/Pull%20Up%20Method/Pull%20Up%20Method.md)
 1. [Pull Up Field](src/Refactoring%20APIs/Pull%20Up%20Field/Pull%20Up%20Field.md)

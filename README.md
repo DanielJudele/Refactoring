@@ -69,14 +69,15 @@
 1. [Replace Command with Function](src/Refactoring%20APIs/Replace%20Command%20with%20Function/Replace%20Command%20with%20Function.md)
 
 ## Dealing with Inheritance
-1. [Collapse Hierarchy](src/Refactoring%20APIs/Collapse%20Hierarchy/Collapse%20Hierarchy.md)
-1. [Extras Superclass](src/Refactoring%20APIs/Extras%20Superclass/Extras%20Superclass.md)
-1. [Pull Up Method](src/Refactoring%20APIs/Pull%20Up%20Method/Pull%20Up%20Method.md)
-1. [Pull Up Field](src/Refactoring%20APIs/Pull%20Up%20Field/Pull%20Up%20Field.md)
-1. [Push Down Method](src/Refactoring%20APIs/Push%20Down%20Method/Push%20Down%20Method.md)
-1. [Push Down Field](src/Refactoring%20APIs/Push%20Down%20Field/Push%20Down%20Field.md)
-1. [Remove Subclass](src/Refactoring%20APIs/Remove%20Subclass/Remove%20Subclass.md)
-1. [Replace Type Code with Subclasses](src/Refactoring%20APIs/Replace%20Type%20Code%20with%20Subclasses/Replace%20Type%20Code%20with%20Subclasses.md)
+1. [Collapse Hierarchy](src/Dealing%20with%20Inheritance/Collapse%20Hierarchy/Collapse%20Hierarchy.md)
+1. [Extras Superclass](src/Dealing%20with%20Inheritance/Extras%20Superclass/Extras%20Superclass.md)
+1. [Pull Up Method](src/Dealing%20with%20Inheritance/Pull%20Up%20Method/Pull%20Up%20Method.md)
+1. [Pull Up Field](src/Dealing%20with%20Inheritance/Pull%20Up%20Field/Pull%20Up%20Field.md)
+1. [Push Down Method](src/Dealing%20with%20Inheritance/Push%20Down%20Method/Push%20Down%20Method.md)
+1. [Push Down Field](src/Dealing%20with%20Inheritance/Push%20Down%20Field/Push%20Down%20Field.md)
+1. [Remove Subclass](src/Dealing%20with%20Inheritance/Remove%20Subclass/Remove%20Subclass.md)
+1. [Replace Type Code with Subclasses](src/Dealing%20with%20Inheritance/Replace%20Type%20Code%20with%20Subclasses/Replace%20Type%20Code%20with%20Subclasses.md)
+1. [Replace Subclass with Delegate](src/Dealing%20with%20Inheritance/Replace%20Subclass%20with%20Delegate/Replace%20Subclass%20with%20Delegate.md)
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)
 

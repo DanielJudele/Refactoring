@@ -73,8 +73,8 @@
 1. [Pull Up Field](src/Refactoring%20APIs/Pull%20Up%20Field/Pull%20Up%20Field.md)
 1. [Push Down Method](src/Refactoring%20APIs/Push%20Down%20Method/Push%20Down%20Method.md)
 1. [Push Down Field](src/Refactoring%20APIs/Push%20Down%20Field/Push%20Down%20Field.md)
+1. [Remove Subclass](src/Refactoring%20APIs/Remove%20Subclass/Remove%20Subclass.md)
 1. [Replace Type Code with Subclasses](src/Refactoring%20APIs/Replace%20Type%20Code%20with%20Subclasses/Replace%20Type%20Code%20with%20Subclasses.md)
-
 
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)
 

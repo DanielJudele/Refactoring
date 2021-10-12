@@ -1,6 +1,8 @@
 # Refactoring
-A collection of methods which might help developers to refactor the code. 
-The code samples were implemented using JavaScript as a programming language. For testing I used [Mocha](https://mochajs.org/).
+A collection of methods which might help developers to refactor the code.
+
+The code samples were implemented using JavaScript as a programming language. 
+For testing I used [Mocha](https://mochajs.org/).
 ## Basic set
 1. [Change Function Declaration](src/Basic/Change%20Function%20Declaration/Change%20Function%20Declaration.md)
 1. [Combine Functions into Class](src/Basic/Combine%20Functions%20into%20Class/Combine%20Functions%20Into%20Class.md)

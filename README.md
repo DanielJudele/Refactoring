@@ -80,6 +80,7 @@
 1. [Replace Subclass with Delegate](src/Dealing%20with%20Inheritance/Replace%20Subclass%20with%20Delegate/Replace%20Subclass%20with%20Delegate.md)
 1. [Replace Superclass with Delegate](src/Dealing%20with%20Inheritance/Replace%20Superclass%20with%20Delegate/Replace%20Superclass%20with%20Delegate.md)
 
+## Bibliography
 [Book: Refactoring Improving the Design of Existing Code by Martin Fowler, with Kent Beck](https://martinfowler.com/books/refactoring.html)
 
 [Online catalog of refactorings, Martin Fowler](https://refactoring.com/catalog/)
